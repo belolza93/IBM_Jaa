@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 2rem;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin-top: 2rem;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+input {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#bmi-result {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #f4f4f4;
+    display: inline-block;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#bmi-value {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#bmi-status {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* สีสำหรับแต่ละช่วงของค่า BMI */
+.ผอมไปนะเพื่อน {
+    color: #f0ad4e;  /* สีส้ม */
+}
+
+.ทำดีต่อไปสหาย {
+    color: #5cb85c;  /* สีเขียว */
+}
+
+.พุงเริ่มออกแล้วนะ {
+    color: #f0ad4e;  /* สีส้ม */
+}
+
+.อ้วน {
+    color: #d9534f;  /* สีแดง */
+}
